@@ -219,7 +219,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -231,7 +231,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 75%;
+    width: 50%;
   }
 }
 
@@ -249,8 +249,8 @@
 @media (min-width: 800px) {
   .elementText {
     font-size: 35px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
 
@@ -263,7 +263,7 @@
 @media (min-width: 800px) {
   .quoteText {
     font-size: 30px;
-    margin-left: 20%;
+    margin-left: 30%;
   }
 }
 
