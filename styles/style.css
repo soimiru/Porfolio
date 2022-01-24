@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap");
+.mybtn {
+  background-color: #413497 !important;
+  font-size: 1.7rem !important;
+}
+
+.mynavbarlist {
+  font-size: 1.7rem !important;
+}
+
+@media (min-width: 800px) {
+  .upButtons {
+    font-size: 30px;
+    height: 180px;
+  }
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #b9b1ee;
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (min-width: 800px) {
+  .welcome {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 50px;
+    height: 180px;
+  }
+}
+
+.welcomediv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .welcomediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+.portadaJuego1 {
+  background-image: url("../sources/BOBB/bobb_header.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .portadaJuego1 {
+    height: 250px;
+  }
+}
+
+.portadaJuego2 {
+  background-image: url("../sources/rollingbeats/rollingbeats_header.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .portadaJuego2 {
+    height: 250px;
+  }
+}
+
+.portadaJuego3 {
+  background-image: url("../sources/sugarscape/sugarscape_header.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .portadaJuego3 {
+    height: 250px;
+  }
+}
+
+.overlay {
+  background-color: #00000071;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.textooverlay {
+  position: absolute;
+  z-index: 5;
+}
+
+.tituloJuego {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .tituloJuego {
+    font-size: 50px;
+  }
+}
+
+.subtituloJuego {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .subtituloJuego {
+    font-size: 42px;
+  }
+}
+
+.elementoJuego {
+  background-color: #ecece9;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+.cardDiv {
+  width: 220px;
+  height: 180px;
+}
+
+@media (min-width: 800px) {
+  .cardDiv {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .cardImageLong {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardImageLong {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40%;
+  }
+}
+
+@media (min-width: 800px) {
+  .cardImageNormal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 75%;
+  }
+}
+
+.pimage {
+  font-size: 1.6rem;
+}
+
+.elementText {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (min-width: 800px) {
+  .elementText {
+    font-size: 35px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+.quoteText {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  border-left: 5px solid cornflowerblue;
+}
+
+@media (min-width: 800px) {
+  .quoteText {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+}
+
+.playlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+}
+
+@media (min-width: 800px) {
+  .playlink {
+    font-size: 4rem;
+    padding-bottom: 2%;
+  }
+}
+
+.marginbottomnone {
+  margin-bottom: 0px !important;
+}
+
+.iframeclass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 800px) {
+  .iframeclass {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+iframe {
+  width: 80%;
+  height: 25vh;
+}
+
+@media (min-width: 750px) {
+  iframe {
+    width: 80%;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 800px) {
+  iframe {
+    width: 65%;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  iframe {
+    width: 48%;
+    height: 50vh;
+  }
+}
+
+body {
+  font-family: 'Dongle', sans-serif;
+  background-color: #ecece9;
+  margin: 0px;
+}
+
+nav {
+  background-color: slateblue !important;
+  font-size: 1.8rem;
+  padding-left: 5%;
+}
+
+footer {
+  background-color: slateblue !important;
+  font-size: 1.8rem;
+}
+
+.iconimage {
+  width: 26px;
+  height: auto;
+  margin-right: 5px;
+  padding-top: 8%;
+  padding-right: 5%;
+}
+
+.footerbtn {
+  background-color: #413497 !important;
+  font-size: 1.8rem !important;
+  line-height: 42px !important;
+  width: 160px;
+}
+
+.footerjustify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.footercol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
