@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Titillium+Web:wght@400;700;900&display=swap');
+
 
 .mybtn{
-    background-color: rgb(65, 52, 151) !important;
+    background-color: #e53170 !important;
     font-size: 1.7rem !important;
 }
 
 .mynavbarlist{
+    font-family: 'Dongle', sans-serif;
     font-size: 1.7rem !important;
 
 }
 
 .upButtons{
+    font-family: 'Dongle', sans-serif;
     @media (min-width: 800px) {
         font-size: 30px;
     }
 }
 
 .welcome{
+    font-family: 'Dongle', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    background-color: rgb(185, 177, 238);
+    color: #fffffe;
+    background-color: #26262b;
     height: 100px;
     padding-left: 5%;
     padding-right: 5%;
@@ -47,6 +52,7 @@
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    color: #fffffe;
 
 }
 
@@ -61,7 +67,7 @@
     align-content: center;
     justify-content: center;
     @media (min-width: 800px) {
-        height: 250px;
+        height: 300px;
     }
 }
 .portadaJuego2{
@@ -75,7 +81,7 @@
     align-content: center;
     justify-content: center;
     @media (min-width: 800px) {
-        height: 250px;
+        height: 300px;
     }
 }
 .portadaJuego3{
@@ -89,11 +95,11 @@
     align-content: center;
     justify-content: center;
     @media (min-width: 800px) {
-        height: 250px;
+        height: 300px;
     }
 }
 .overlay{
-    background-color: #00000071;
+    background-color: #16161a85;
     height:  100%;
     width: 100%;
     z-index: 3;
@@ -105,16 +111,16 @@
 .tituloJuego{
     font-size: 2.5rem;
     font-weight: bold;
-    color: white;
+    color: #fffffe;
     margin: 0;
     text-align: center;
     @media (min-width: 800px) {
-        font-size: 50px;
+        font-size: 90px;
     }
 }
 .subtituloJuego{
     font-size: 2rem;
-    color: white;
+    color: #fffffe;
     margin: 0;
     text-align: center;
     @media (min-width: 800px) {
@@ -123,9 +129,10 @@
 }
 
 .elementoJuego{
-    background-color: rgb(236, 236, 233);
+    background-color: #26262b;
+    color: #fffffe;
     height: auto;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 .cardDiv{
@@ -161,44 +168,59 @@
     }
 }
 
+.cardbg{
+    background-color: #fffffe;
+}
 
 .pimage{
-    font-size: 1.6rem;
+    font-family: 'Titillium', sans-serif;
+    font-size: 0.9rem;
+    color: #010101;
 }
 
 .elementText{
-    font-size: 1.5rem;
+    font-family: 'Titillium', sans-serif;
+    font-size: 1rem;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
     @media (min-width: 800px) {
-        font-size: 35px;
+        font-size: 1.1rem;
         padding-left: 25%;
         padding-right: 25%;
     }
 }
 
 .quoteText{
-    font-size: 1.5rem;
+    font-family: 'Titillium', sans-serif;
+    font-size: 0.9rem;
     margin-left: 5%;
-    border-left: 5px solid cornflowerblue;
+    border-left: 5px solid #e53170;
     @media (min-width: 800px) {
-        font-size: 30px;
+        font-size: 16px;
         margin-left: 30%;
         
     }
 }
 
 .playlink{
+    font-family: 'Titillium', sans-serif;
     display: flex;
     text-align: center;
     align-content: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     @media (min-width: 800px) {
-        font-size: 4rem;
+        font-size: 2.5rem;
         padding-bottom: 2%;
     }
+}
+
+.playColor{
+    color: #e53170;
+    font-weight: 700;
 }
 
 .marginbottomnone{
@@ -214,39 +236,59 @@
         justify-content: center;
     }
 }
-iframe{
-    width: 80%;
-    height: 25vh;
-    @media (min-width: 750px) {
-        width: 80%;
-        height: 30vh;
-    }
-    @media (min-width: 800px) {
-        width: 65%;
-        height: 30vh;
-    }
-    @media (min-width: 1200px) {
-        width: 48%;
-        height: 50vh;
-    }
 
+.divVideoContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+    @media (min-width: 800px) {
+        padding-left: 25%;
+        padding-right: 25%;
+    }@media (min-width: 1200px) {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+
+.videoYT{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 body{
     font-family: 'Dongle', sans-serif;
-    background-color: rgb(236, 236, 233);
+    background-color: #16161a;
     margin: 0px;
 }
 nav{
-    background-color: slateblue !important;
+    background-color: #16161a !important;
     font-size: 1.8rem;
     padding-left: 5%;
 
 }
 footer{
-    background-color: slateblue !important;
+    background-color: #16161a !important;
     font-size: 1.8rem;
+    padding-top: 35px !important;
+    
 }
+
+.mySidenav{
+    background-color: #16161a !important;
+    
+}
+.iconMail{
+    color: #fffffe !important;
+}
+
+.btnSide{
+    color: #fffffe !important;
+    font-size: 1.5rem !important;
+    margin-top: 5%;
+}
+
 
 .iconimage{
     width: 26px;
@@ -256,7 +298,7 @@ footer{
     padding-right: 5%;
 }
 .footerbtn{
-    background-color: rgb(65, 52, 151) !important;
+    background-color: #e53170 !important;
     font-size: 1.8rem !important;
     line-height: 42px !important;
     width: 160px;
@@ -269,4 +311,13 @@ footer{
     display: flex;
     margin: 0 !important;
     justify-content: space-around;
+}
+
+.decorativeDiv{
+    background-color: #e53170;
+    height: 3px;
+    width: 100%;
+    @media (min-width: 800px) {
+        height: 6px;
+    }
 }
